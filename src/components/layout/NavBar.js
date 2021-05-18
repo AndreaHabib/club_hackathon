@@ -18,16 +18,6 @@ export default class NavBar extends Component {
           </Link>
         </Nav.Item>
         <Nav.Item>
-          <Link to="team" spy={true} delay={false}>
-            <Nav.Link
-              className="option"
-              style={{ color: "white", textDecoration: "none" }}
-            >
-              Team
-            </Nav.Link>
-          </Link>
-        </Nav.Item>
-        <Nav.Item>
           <Link to="contact" spy={true} delay={false}>
             <Nav.Link
               className="option"
@@ -36,6 +26,17 @@ export default class NavBar extends Component {
               Contact
             </Nav.Link>
           </Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link
+            href="https://forms.gle/P9j5z97R1hqAHyPo9"
+            target="_blank"
+            rel="noreferrer"
+            className="option"
+            style={{ color: "white", textDecoration: "none" }}
+          >
+            Join Now!
+          </Nav.Link>
         </Nav.Item>
       </Nav>
     );

@@ -5,7 +5,6 @@ import LandingPage from "./components/LandingPage";
 import About from "./components/About";
 import Footer from "./components/layout/Footer";
 import Membership from "./components/Membership";
-//import Team from "./components/Team";
 
 function App() {
   return (
@@ -15,7 +14,6 @@ function App() {
         <LandingPage />
         <About />
         <Membership />
-        {/* <Team /> */}
         <Footer />
       </header>
     </div>
