@@ -1,0 +1,42 @@
+.mission {
+  margin: 0 auto;
+  justify-content: center;
+  padding: 10rem;
+}
+
+.title {
+  margin-bottom: 50px;
+}
+
+.quote {
+  font-weight: normal;
+  border-left: 1px solid white;
+  font-size: xx-large;
+}
+
+@media screen and (max-width: 768px) {
+  .mission {
+    padding: 3rem;
+  }
+  .quote {
+    font-size: large;
+  }
+}
+
+@media screen and (max-width: 1366px) and (min-width: 1024px) {
+  .mission {
+    padding: 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 768px) {
+  .mission {
+    padding: 3rem;
+  }
+}
+
+@media screen and (max-width: 280px) and (min-width: 280px) {
+  .mission {
+    padding: 3rem;
+  }
+}
