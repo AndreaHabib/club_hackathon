@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@600&display=swap");
+html,
+body {
+  overflow-x: hidden;
+  margin: 0;
+  font-family: "Gill Sans", Arial, Helvetica, sans-serif, "Gill Sans MT",
+    "Trebuchet MS";
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 115%;
+  color: black;
+  text-align: left;
+}
+html {
+  /*min-width: 550px;*/
+  scroll-behavior: smooth;
+}
