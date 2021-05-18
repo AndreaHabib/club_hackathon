@@ -1,0 +1,111 @@
+.box {
+  padding: 20px;
+  width: 25%;
+}
+
+.icons {
+  width: 15rem;
+}
+
+.header {
+  font-size: xx-large;
+}
+
+.description {
+  font-size: x-large;
+}
+
+.row {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.membership {
+  padding: 10rem;
+  background-color: #2c2f33;
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    padding: 0px;
+  }
+  .header {
+    width: 15rem;
+  }
+  .description {
+    font-size: large;
+    width: 15rem;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1366px) and (min-width: 1024px) {
+  .box {
+    padding: 0px;
+    margin-left: 215px;
+  }
+  .membership {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .header {
+    width: 20rem;
+  }
+  .description {
+    font-size: large;
+    width: 20rem;
+  }
+  .icons {
+    width: 20rem;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 768px) {
+  .box {
+    padding: 0px;
+    margin-left: 75px;
+  }
+  .membership {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .header {
+    width: 20rem;
+  }
+  .description {
+    font-size: large;
+    width: 20rem;
+  }
+  .icons {
+    width: 20rem;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 280px) and (min-width: 280px) {
+  .box {
+    padding: 0px;
+  }
+  .header {
+    width: 15rem;
+  }
+  .description {
+    font-size: large;
+    width: 15rem;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+}

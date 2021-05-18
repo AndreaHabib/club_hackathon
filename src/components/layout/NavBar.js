@@ -8,7 +8,7 @@ export default class NavBar extends Component {
     return (
       <Nav className="justify-content-center nav">
         <Nav.Item>
-          <Link to="skills" spy={true} delay={false}>
+          <Link to="about" spy={true} delay={false}>
             <Nav.Link
               className="option"
               style={{ color: "white", textDecoration: "none" }}
@@ -18,7 +18,7 @@ export default class NavBar extends Component {
           </Link>
         </Nav.Item>
         <Nav.Item>
-          <Link to="experience" spy={true} delay={false}>
+          <Link to="team" spy={true} delay={false}>
             <Nav.Link
               className="option"
               style={{ color: "white", textDecoration: "none" }}
@@ -28,7 +28,7 @@ export default class NavBar extends Component {
           </Link>
         </Nav.Item>
         <Nav.Item>
-          <Link to="project" spy={true} delay={false}>
+          <Link to="contact" spy={true} delay={false}>
             <Nav.Link
               className="option"
               style={{ color: "white", textDecoration: "none" }}
