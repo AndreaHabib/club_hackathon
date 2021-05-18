@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import hap from "./assets/HACK_CSI.svg";
+import hap from "./assets/CSI_CLUB.svg";
 import arrow from "./assets/down_arrow.svg";
 import "./styles/LandingPage.css";
 
