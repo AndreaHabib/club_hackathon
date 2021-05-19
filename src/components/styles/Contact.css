@@ -1,0 +1,35 @@
+.contact {
+  margin-top: 10rem;
+}
+
+.contact .header {
+  margin-bottom: 10rem;
+}
+
+.contact .row .box {
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .contact .row .box {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1366px) and (min-width: 1024px) {
+  .contact .row .box {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 768px) {
+  .contact .row .box {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 280px) and (min-width: 280px) {
+  .contact .row .box {
+    width: 100%;
+  }
+}

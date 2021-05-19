@@ -5,6 +5,7 @@ import LandingPage from "./components/LandingPage";
 import About from "./components/About";
 import Footer from "./components/layout/Footer";
 import Membership from "./components/Membership";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <LandingPage />
         <About />
         <Membership />
+        <Contact />
         <Footer />
       </header>
     </div>
