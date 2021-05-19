@@ -13,7 +13,8 @@ export default class LandingPage extends Component {
       <div
         data-aos="fade-down"
         data-aos-delay="20"
-        data-aos-duration="300"
+        data-aos-anchor-placement="top-center"
+        data-aos-duration="200"
         data-aos-easing="ease-out"
         style={{ backgroundImage: `url(${hap})` }}
         className="landing_page"

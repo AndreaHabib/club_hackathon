@@ -1,10 +1,22 @@
 import React, { Component } from "react";
 import "./styles/About.css";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init();
 
 export default class About extends Component {
   render() {
     return (
-      <div className="mission" id="about">
+      <div
+        data-aos="fade-down"
+        data-aos-delay="10"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="300"
+        data-aos-easing="ease-out"
+        className="mission"
+        id="about"
+      >
         <h2 className="title">
           <strong>Our Mission</strong>
         </h2>

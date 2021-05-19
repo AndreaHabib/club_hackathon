@@ -1,10 +1,10 @@
 .contact {
-  margin-top: 10rem;
+  padding-top: 10rem;
 }
 
 .contact .header {
   margin-bottom: 10rem;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .contact .row .box {
@@ -20,10 +20,16 @@
 .ref {
   text-decoration: none;
   color: white;
-  background-color: indigo;
+  background-color: #1e1c2b;
   padding: 10px;
   border-radius: 10px;
   line-height: 70px;
+}
+
+.ref:hover {
+  color: white;
+  background: #282c34;
+  border: 5px solid #1e1c2b;
 }
 
 .join-now {

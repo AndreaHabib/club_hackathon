@@ -8,7 +8,13 @@ import resources from "./assets/resources.svg";
 export default class Membership extends Component {
   render() {
     return (
-      <div>
+      <div
+        data-aos="fade-down"
+        data-aos-delay="100"
+        data-aos-anchor-placement="top-bottom"
+        data-aos-duration="400"
+        data-aos-easing="ease-out"
+      >
         <div className="membership">
           <h1 className="header">
             <strong>Membership Benefits</strong>
@@ -41,7 +47,7 @@ export default class Membership extends Component {
           </div>
           <div>
             <h1 className="info">
-              For more information about the club:{" "}
+              For more information about the club: <br></br>
               <a
                 className="ref"
                 href="https://csi.campuslabs.com/engage/organization/hack_a_project"
