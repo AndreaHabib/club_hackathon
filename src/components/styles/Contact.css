@@ -10,9 +10,31 @@
   width: 50%;
 }
 
+.flame {
+  width: 30rem;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.ref {
+  text-decoration: none;
+  color: white;
+  background-color: indigo;
+  padding: 10px;
+  border-radius: 10px;
+  line-height: 70px;
+}
+
+.join-now {
+  padding-bottom: 100px;
+}
+
 @media screen and (max-width: 768px) {
   .contact .row .box {
     width: 100%;
+  }
+  .flame {
+    width: 15rem;
   }
 }
 

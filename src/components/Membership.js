@@ -39,8 +39,27 @@ export default class Membership extends Component {
               </p>
             </div>
           </div>
+          <div>
+            <h1 className="info">
+              For more information about the club:{" "}
+              <a
+                className="ref"
+                href="https://csi.campuslabs.com/engage/organization/hack_a_project"
+                target="_blank"
+                rel="noreferrer"
+              >
+                CSI Connect
+              </a>
+            </h1>
+          </div>
+          <hr
+            align="center"
+            style={{ color: "#7289da", width: "80%", margin: "auto" }}
+          ></hr>
           <div className="team">
-            <h1 className="header">Officers</h1>
+            <h1 className="header">
+              <strong>Officers</strong>
+            </h1>
             <div className="row">
               <div className="box">
                 <a
@@ -87,7 +106,9 @@ export default class Membership extends Component {
                 </a>
               </div>
             </div>
-            <h1 className="header">Committees</h1>
+            <h1 className="header">
+              <strong>Committees</strong>
+            </h1>
             <div className="row">
               <div className="box">
                 <a
@@ -133,6 +154,10 @@ export default class Membership extends Component {
                   <small>Social Media Committee</small>
                 </a>
               </div>
+            </div>
+            <div>
+              <i class="fas fa-user fa-3x"></i>
+              <h1 className="members-amount">And 40+ amazing members!</h1>
             </div>
           </div>
         </div>

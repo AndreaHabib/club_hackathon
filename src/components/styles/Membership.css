@@ -6,6 +6,25 @@
   margin-bottom: 100px;
 }
 
+h1.info a.ref {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  line-height: 70px;
+  background-color: green;
+  border-radius: 100px;
+  font-size: xx-large;
+}
+
+h1.info {
+  font-size: xx-large;
+}
+
+.members-amount {
+  padding-bottom: 100px;
+  font-size: xx-large;
+}
+
 .member_image {
   width: 15rem;
   margin-bottom: 15px;
