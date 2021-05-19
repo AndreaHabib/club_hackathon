@@ -14,7 +14,7 @@
   position: fixed;
   bottom: 0;
   width: 6rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   margin-left: -3rem;
 }
 
@@ -22,6 +22,8 @@
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 @-moz-keyframes bounce {
