@@ -5,6 +5,7 @@
   align-items: center;
   margin-bottom: 100px;
   transition: transform 0.2s;
+  position: relative;
 }
 
 h1.info a.ref {
@@ -79,7 +80,8 @@ h1.info {
   width: 100%;
   justify-content: center;
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: flex-start;
 }
 
 .membership {
