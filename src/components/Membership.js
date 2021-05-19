@@ -10,9 +10,9 @@ export default class Membership extends Component {
     return (
       <div>
         <div className="membership">
-          <h2>
+          <h1 className="header">
             <strong>Membership Benefits</strong>
-          </h2>
+          </h1>
           <div className="row">
             <div className="box">
               <img className="icons" src={network} alt="network" />
