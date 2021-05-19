@@ -80,8 +80,7 @@ h1.info {
   width: 100%;
   justify-content: center;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
+  flex-direction: row;
 }
 
 .membership {
