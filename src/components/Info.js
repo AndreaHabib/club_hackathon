@@ -10,7 +10,7 @@ export default class Info extends Component {
           <h2>hackaprojectcsi@gmail.com</h2>
         </i>
         <hr style={{ color: "#7289da" }}></hr>
-        <div>
+        <div className="social">
           <span style={{ marginRight: "20px" }}>
             <a
               href="https://github.com/Hack-A-Project"

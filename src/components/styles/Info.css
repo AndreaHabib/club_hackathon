@@ -2,4 +2,9 @@ a .fas,
 .fab {
   text-decoration: none;
   color: white;
+  margin-top: 15px;
+}
+
+.social {
+  margin-left: 15px;
 }
