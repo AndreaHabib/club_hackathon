@@ -37,8 +37,10 @@ h1.info {
 }
 
 .member_image {
-  width: 15rem;
+  width: 13rem;
+  height: 17rem;
   margin-bottom: 15px;
+  border-radius: 20%;
 }
 
 .team a {

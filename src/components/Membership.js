@@ -73,7 +73,11 @@ export default class Membership extends Component {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img className="member_image" src={member} alt="member" />
+                  <img
+                    className="member_image"
+                    src="https://res.cloudinary.com/andreahabib/image/upload/v1614539664/backup_aurk3d.jpg"
+                    alt="member"
+                  />
                   <p className="name">Andrea Habib</p>
                   <small>President</small>
                 </a>
@@ -106,7 +110,11 @@ export default class Membership extends Component {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img className="member_image" src={member} alt="member" />
+                  <img
+                    className="member_image"
+                    src="https://res.cloudinary.com/andreahabib/image/upload/v1623167463/club_website/image0_q5dydw.jpg"
+                    alt="member"
+                  />
                   <p className="name">Jonathan Leibovici</p>
                   <small>Treasurer</small>
                 </a>
@@ -122,7 +130,11 @@ export default class Membership extends Component {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img className="member_image" src={member} alt="member" />
+                  <img
+                    className="member_image"
+                    src="https://res.cloudinary.com/andreahabib/image/upload/v1623167487/club_website/IMG_1072_arvptj.jpg"
+                    alt="member"
+                  />
                   <p className="name">Abdelrahman Elsayed</p>
                   <small>Workshop Committee</small>
                 </a>
@@ -144,7 +156,11 @@ export default class Membership extends Component {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img className="member_image" src={member} alt="member" />
+                  <img
+                    className="member_image"
+                    src="https://res.cloudinary.com/andreahabib/image/upload/v1623167457/club_website/image0_1_oi78oa.jpg"
+                    alt="member"
+                  />
                   <p className="name">Melchizedek Tetteh</p>
                   <small>Project Committee</small>
                 </a>
