@@ -6,6 +6,7 @@ import About from "./components/About";
 import Footer from "./components/layout/Footer";
 import Membership from "./components/Membership";
 import Contact from "./components/Contact";
+import Events from "./components/Events";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <LandingPage />
         <About />
         <Membership />
+        <Events />
         <Contact />
         <Footer />
       </header>

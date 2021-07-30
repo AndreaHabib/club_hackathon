@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 export default class NavBar extends Component {
   render() {
     return (
-      <Nav className="justify-content-center nav">
+      <Nav className="nav">
         <Nav.Item>
           <Link to="about" spy={true} delay={false}>
             <Nav.Link
