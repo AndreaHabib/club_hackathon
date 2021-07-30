@@ -37,6 +37,17 @@ You will also see any lint errors in the console.
 
 We appreciate feedback and contributions to this repository by either opening an issue, or forking the website and making a pull request for review. Any contribution is welcome!
 
+Possible Contributions:
+
+- Redesign
+- Refactor
+- Update Readme
+- Fix typos if present
+- Add new content
+- Add issues for suggestions
+- Update dependencies
+- Anything that maintains and improves the website!
+
 # License
 
 This repository is covered under The MIT License.
