@@ -16,9 +16,8 @@ export default function Events() {
           />
 
           <div className="info">
-            <p>HackCSI</p>
-            <hr style={{ border: "1px solid #282c34", width: "80%" }}></hr>
-            <p style={{ width: "60%" }}>
+            <p className="title">HackCSI</p>
+            <p className="description">
               A chill hackathon where CSI students can work togther on a
               project!
             </p>
