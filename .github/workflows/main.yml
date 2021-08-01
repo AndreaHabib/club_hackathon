@@ -39,6 +39,6 @@ jobs:
         uses: fateyan/action-discord-notifier@v1.2.0
         with:
           # A full discord webhook url
-          webhook: https://discord.com/api/webhooks/871452646060486656/i0KnQriRWum-cNRRX5eSP3olsBr8bsJBPyDu3FV1vwSlmcaSl5rLzqfETysj-Qv4nNeR
+          webhook: https://discord.com/api/webhooks/871436351189418014/S133EELY2DFvFb9MFrIjqWwMcp06GCeagVzkxmxyQB_AF_tHvepadlGOphz4U48RwxwI
           # Message title
-          message-title: Repository Changes
+          message-title: New changes to Hack-A-Project website repository!
