@@ -1,6 +1,8 @@
 .landing_page {
   height: 100vh;
   width: 100%;
+  display: flex;
+  justify-content: center;
   background-repeat: no-repeat;
   background-size: 150% 150%;
   background-color: #e0aa12;
@@ -10,20 +12,16 @@
 
 .down_arrow {
   z-index: 1;
-  margin-top: 100vh;
-  position: fixed;
+  color: #3e32a7;
   bottom: 0;
-  width: 6rem;
-  margin-bottom: 2rem;
-  margin-left: -3rem;
+  margin-bottom: 1rem;
+  position: absolute;
 }
 
 .bounce {
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
 }
 
 @-moz-keyframes bounce {
