@@ -179,7 +179,7 @@ export default class Membership extends Component {
             </div>
             <div>
               <i class="fas fa-user fa-3x"></i>
-              <h1 className="members-amount">And 40+ amazing members!</h1>
+              <h1 className="members-amount">And 50+ amazing members!</h1>
             </div>
           </div>
         </div>
