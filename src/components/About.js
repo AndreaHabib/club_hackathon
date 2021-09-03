@@ -1,13 +1,23 @@
-import React, { Component } from "react";
+import React, {useState, useEffect} from "react";
 import "./styles/About.css";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 // ..
+
 AOS.init();
 
-export default class About extends Component {
-  render() {
-    return (
+const About = () => {
+  const [offsetY, setOffsetY] = useState(-1000);
+  const handleScroll = () => setOffsetY(window.pageYOffset)
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  return (
+    <div className="missionContainer">
       <div
         data-aos="fade-down"
         data-aos-delay="10"
@@ -16,20 +26,23 @@ export default class About extends Component {
         data-aos-easing="ease-out"
         className="mission"
         id="about"
+        style={{transform: `translateY(${offsetY * 0.1}px)`}}
       >
-        <h2 className="title">
-          <strong>Our Mission</strong>
-        </h2>
-        <p className="quote">
-          Our mission is to provide a space and community where fellow CSI
-          students can be inspired to explore{" "}
-          <strong>different projects</strong> in the Computer Science field as
-          well as external events, and competitions to provide meaningful{" "}
-          <strong>professional experience</strong> and encourage members to
-          explore a diversity of tech-fields and increase your professional
-          network.{" "}
-        </p>
+            <h2 className ="title">
+              <strong>Our Mission</strong>
+            </h2>
+            <p className="quote">
+              Our mission is to provide a space and community where fellow CSI
+              students can be inspired to explore{" "}
+              <strong>different projects</strong> in the Computer Science field as
+              well as external events, and competitions to provide meaningful{" "}
+              <strong>professional experience</strong> and encourage members to
+              explore a diversity of tech-fields and increase your professional
+              network.{" "}
+            </p>
       </div>
-    );
-  }
+    </div>
+  );
 }
+
+export default About;

@@ -1,23 +1,36 @@
 .mission {
   margin: 0 auto;
   justify-content: center;
-  padding: 10rem;
+  padding: 8rem 6rem 20rem 6rem;
+  background-image: url("../assets/space_one_big.jpg" );
 }
 
 .title {
   margin-bottom: 50px;
-  font-size: 40px;
+  font-size: 9000px;
 }
 
 .quote {
   font-weight: normal;
-  border-left: 1px solid white;
+  border-left: 2px solid white;
   font-size: xx-large;
+  padding-left: 3rem;
+}
+
+.parallax {
+  width: 100px;
+  height: 100px;
+}
+
+.missionContainer {
+  background-image: url("../assets/space_one_big.jpg" );
+  width: 100%;
+  height: 100%;
 }
 
 @media screen and (max-width: 768px) {
   .mission {
-    padding: 3rem;
+    padding: 8rem 6rem 20rem 6rem;
   }
   .quote {
     font-size: large;
@@ -26,18 +39,27 @@
 
 @media screen and (max-width: 1366px) and (min-width: 1024px) {
   .mission {
-    padding: 3rem;
+    padding: 8rem 6rem 20rem 6rem;
   }
 }
 
 @media screen and (max-width: 768px) and (min-width: 768px) {
   .mission {
-    padding: 3rem;
+    padding: 8rem 6rem 20rem 6rem;
   }
 }
 
 @media screen and (max-width: 280px) and (min-width: 280px) {
   .mission {
-    padding: 3rem;
+    padding: 8rem 6rem 20rem 6rem;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 770px) {
+  .quote {
+    font-weight: normal;
+    border-left: 2px solid white;
+    font-size: x-large;
+    padding-left: 3rem;
   }
 }
