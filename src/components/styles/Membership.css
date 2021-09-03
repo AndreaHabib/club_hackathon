@@ -9,18 +9,32 @@
 }
 
 h1.info a.ref {
-  text-decoration: none;
-  color: white;
-  padding: 10px;
-  line-height: 70px;
-  background-color: green;
-  border-radius: 100px;
-  font-size: xx-large;
+  --c: goldenrod;
+  color: var(--c);
+  font-size: 21px;
+  border: 0.2em solid var(--c);
+  border-radius: 0.5em;
+  width: 12em;
+  height: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+  line-height: 3em;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: 0.5s;
+  margin: 1em;
 }
 
 h1.info a.ref:hover {
-  background: #282c34;
-  border: 5px solid green;
+  color: white;
+}
+
+h1.info a.ref:hover {
+  transform: translateY(0) scale(2);
 }
 
 h1.info {

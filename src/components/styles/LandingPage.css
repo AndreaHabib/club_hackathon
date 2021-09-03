@@ -18,6 +18,10 @@
   position: absolute;
 }
 
+.landing_page {
+  background-image: url("../assets/CSI_CLUB.svg") !important;
+}
+
 .bounce {
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
