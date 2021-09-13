@@ -7,7 +7,6 @@
     <img alt="Bootstrap" src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>
 </p>
 
-
 # Hack-A-Project
 
 This repository contains the source code of Hack-A-Project informative website.
@@ -26,9 +25,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm install`
+```bash
+npm install
 
-### `npm start`
+npm start
+```
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
