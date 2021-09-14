@@ -2,34 +2,66 @@
   padding-top: 10rem;
 }
 
-#hackcsi {
-  width: 50%;
-  border-radius: 10px;
+.event_img {
+  border-radius: 5px;
+  object-fit: fill;
+  width: 100%;
+  min-height: 50%;
+}
+
+.disabled {
+  text-decoration: none;
+  background-color: rgba(47, 36, 41, 0.5);
+  color: white;
+  width: 80%;
+  padding: 5px;
+  border-radius: 100px;
+  pointer-events: none;
+  margin-top: 20px;
+}
+
+.disabled:hover {
+  pointer-events: none;
+  text-decoration: none;
+  cursor: not-allowed;
 }
 
 .description {
   width: 100%;
-  padding: 10px;
+  font-size: 20px;
 }
 
 .events {
   padding-top: 3rem;
   display: flex;
   justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.fa-calendar-alt {
+  margin-right: 5px;
+  margin-top: 4px;
 }
 
 .title {
-  font-size: 40px;
+  font-size: 1.5em;
   margin-bottom: 0;
-  padding-bottom: 50px;
+  font-weight: 700;
+}
+
+.chip {
+  margin-right: 5px;
+  padding: 10px;
+  background-color: rgba(47, 36, 41, 05);
+  border-radius: 50px;
 }
 
 div.info {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50%;
-  padding: 10px;
+  width: 100%;
   font-size: larger;
   justify-content: center;
   background-color: #7289da;
@@ -41,44 +73,38 @@ div.info {
   color: white;
   background-color: #282c34;
   width: 80%;
-  padding: 5px;
+  padding: 6px;
+  margin-top: 20px;
   border-radius: 100px;
 }
 
 .info .moreinfo:hover {
-  padding: 0;
+  padding: 1px;
   background: #7289da;
   border: 5px solid #282c34;
 }
 
 .event {
-  width: 40%;
+  width: 25%;
   justify-content: space-between;
   border-radius: 10px;
   border: 5px solid #7289da;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  margin: 10px;
 }
 
 @media screen and (max-width: 768px) {
-  .event {
-    width: 100%;
-  }
-
   .title {
-    font-size: 30px;
     margin-bottom: 0;
-    padding-left: 50px;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
   }
 
   .event {
     display: flex;
-    flex-direction: column;
-  }
-
-  #hackcsi {
     width: 100%;
+    flex-direction: column;
   }
 
   div.info {
@@ -88,23 +114,15 @@ div.info {
 
 @media screen and (max-width: 1023px) and (min-width: 770px) {
   .title {
-    font-size: 40px;
     margin-bottom: 0;
-    padding-left: 50px; 
-    padding-bottom: 50px;
+    padding-bottom: 10px;
   }
 }
 
 @media screen and (max-width: 1366px) and (min-width: 1024px) {
-  .event {
-    display: flex;
-    flex-direction: row;
-  }
-
   .title {
-    font-size: 40px;
     margin-bottom: 0;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
   }
 
   .description {
