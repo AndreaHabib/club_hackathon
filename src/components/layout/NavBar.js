@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "../styles/NavBar.css";
 import Nav from "react-bootstrap/Nav";
 import { Link } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
 
 export default class NavBar extends Component {
   render() {
@@ -37,6 +38,19 @@ export default class NavBar extends Component {
           >
             Join Now!
           </Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <div
+            className="option"
+            style={{ width: "70px", height: "35px", marginTop: "10px" }}
+          >
+            <RouterLink
+              to="/hacks"
+              style={{ color: "white", textDecoration: "none", marginTop: 90 }}
+            >
+              Hacks
+            </RouterLink>
+          </div>
         </Nav.Item>
       </Nav>
     );
