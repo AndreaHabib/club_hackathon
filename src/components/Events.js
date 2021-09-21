@@ -57,13 +57,13 @@ export default function Events() {
               <span className="chip">Workshop</span>
             </div>
             <a
-              className="disabled"
+              className="moreinfo"
               rel="noreferrer"
               target="_blank"
-              href="https://hackcsi.netlify.app/"
+              href="https://zoom.us/j/94347672067?pwd=L09naVZKdzVUeGtFSUhsTnYvbm1CQT09"
               disabled
             >
-              Zoom Link will be provided
+              Zoom Link
             </a>
           </div>
         </div>

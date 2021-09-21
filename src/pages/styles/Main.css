@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@600&display=swap");
+html,
+body {
+  overflow-x: hidden;
+  margin: 0;
+  font-family: "Gill Sans", Arial, Helvetica, sans-serif, "Gill Sans MT",
+    "Trebuchet MS";
+  color: black;
+  background-color: #1e1c2b;
+  text-align: left;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+html {
+  /*min-width: 550px;*/
+  scroll-behavior: smooth;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+}

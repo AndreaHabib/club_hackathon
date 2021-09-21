@@ -1,0 +1,14 @@
+.container {
+  width: 100rem;
+  height: 100vh;
+  overflow: auto;
+  margin: 0;
+}
+
+.ball {
+  border-radius: 80px;
+  width: 100px;
+  height: 100px;
+  margin: 10% 0 0 40%;
+  background: radial-gradient(circle at 100px 100px, rgb(180, 32, 32), #000);
+}
